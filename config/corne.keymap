@@ -35,9 +35,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none         &kp ESC               &none      &kp LG(LS(SPACE))  &kp LG(LS(J))  &none            &mkp LCLK      &kp N7        &kp N8        &kp N9        &mkp RCLK  &mkp MCLK
-&kp LEFT_GUI  &kp LA(SPACE)         &kp LA(O)  &kp LA(J)          &kp LC(B)      &kp LG(GRAVE)    &mkp MB4       &kp NUMBER_4  &kp N5        &kp N6        &mkp MB5   &none
-&mo 3         &kp LS(RG(NUMBER_4))  &none      &kp LS(LG(C))      &kp LS(LG(V))  &none            &none          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none      &none
+&none         &kp ESC               &none      &kp LG(LS(SPACE))  &kp LG(LS(J))  &none            &none          &kp N7        &kp N8        &kp N9        &none  &none
+&kp LEFT_GUI  &kp LA(SPACE)         &kp LA(O)  &kp LA(J)          &kp LC(B)      &kp LG(GRAVE)    &none          &kp NUMBER_4  &kp N5        &kp N6        &none  &none
+&mo 3         &kp LS(RG(NUMBER_4))  &none      &kp LS(LG(C))      &kp LS(LG(V))  &none            &none          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none  &none
                                                &none              &none          &none            &kp LA(SPACE)  &kp NUMBER_0  &none
             >;
         };
